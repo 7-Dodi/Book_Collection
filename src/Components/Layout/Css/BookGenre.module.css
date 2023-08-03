@@ -1,0 +1,9 @@
+.bookGenre{
+    width: 100%;
+}
+
+.bookFile{
+    display: flex;
+    justify-content: space-between;
+}
+

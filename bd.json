@@ -1,0 +1,420 @@
+{
+  "Author": [
+    {
+      "id": 1,
+      "name": "Jose de Alencar",
+      "nation": "Brasileiro",
+      "school": "Romantismo",
+      "image": "https://i.pinimg.com/564x/9e/b7/7e/9eb77e6bce923b75978fd67bc333c1bb.jpg"
+    },
+    {
+      "name": "Machado de Assis",
+      "nation": "Brasileiro",
+      "school": "Realismo",
+      "id": 2,
+      "image": "https://i.pinimg.com/564x/b4/8c/1f/b48c1faff7f571a33e6c0c9a9d0712a6.jpg"
+    },
+    {
+      "name": "Hiro Arikawa",
+      "nation": "Japonesa",
+      "school": "Mordenismo",
+      "id": 3,
+      "image": "https://i.pinimg.com/564x/97/fc/61/97fc6199343ca4373599d0cc04ceb2e0.jpg"
+    },
+    {
+      "name": "Mary Shelly",
+      "nation": "Britância",
+      "school": "Romantismo",
+      "id": 4,
+      "image": "https://i.pinimg.com/564x/67/c6/78/67c678175a9df9f88107c3565a787e97.jpg"
+    },
+    {
+      "name": "Jane Austen",
+      "nation": "Britância",
+      "school": "Romantismo",
+      "id": 5,
+      "image": "https://i.pinimg.com/564x/05/a1/14/05a114c587a22021935651d1ca5a8a91.jpg"
+    },
+    {
+      "name": "Collen Hoover",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNI1-rnmS0CF180NLzLBeaG9LIm-oDDnPwQ&usqp=CAU",
+      "nation": "Estadunidense",
+      "school": "Mordenismo",
+      "id": 6
+    },
+    {
+      "name": "Rachel de Queiroz",
+      "image": "https://i.pinimg.com/564x/78/4c/07/784c0736498faff148467ba4d68e7f3b.jpg",
+      "nation": "Brasileiro",
+      "school": "NeoRealismo",
+      "id": 7
+    }
+  ],
+  "Books": [
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Iracema",
+      "image": "https://i.pinimg.com/564x/cc/fe/a4/ccfea4c37d1fe8cf103edc12c58dfe09.jpg",
+      "author": {
+        "id": "1",
+        "name": "Jose de Alencar"
+      },
+      "avaliation": [
+        {
+          "note": "10",
+          "description": "Gostei bastante do livro, um dos meus livros preferidos.",
+          "id": "8ad28e22-11e4-445b-af47-dc9713b6fd6a"
+        }
+      ],
+      "id": 1,
+      "resum": "O romance conta o amor de um branco, Martim Soares Moreno, pela índia Iracema, a virgem dos lábios de mel. A relação do casal serviria de alegoria para a formação da nação brasileira. A índia Iracema representaria a natureza virgem e a inocência enquanto o colonizador Martim representa a cultura (europeia)."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        },
+        {
+          "id": "5",
+          "name": "Terror"
+        }
+      ],
+      "title": "Dom Casmurro",
+      "image": "https://i.pinimg.com/564x/38/e9/4d/38e94dd0aee13b9403077f5e8e0fd29d.jpg",
+      "author": {
+        "id": "2",
+        "name": "Machado de Assis"
+      },
+      "avaliation": [
+        {
+          "note": "9",
+          "description": "É um livro que gostei bastante, gostei da história e da característica realista dos personagens, porém não gostei muito do personagem principal.",
+          "id": "07be5831-06a1-40c9-92ed-93225846aa56"
+        }
+      ],
+      "id": 2,
+      "resum": "\"Dom Casmurro\" conta a história de Bento Santiago (Bentinho), apelidado de Dom Casmurro por ser calado e introvertido. Na adolescência, apaixona-se por Capítu, abandonando o seminário e, com ele, os desígnios traçados por sua mãe, Dona Glória, para que se tornasse padre."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Relatos de um Gato Viajante",
+      "image": "https://i.pinimg.com/564x/06/20/7f/06207f0acc7bed7d6746d3769a2eeef9.jpg",
+      "author": {
+        "id": "3",
+        "name": "Hiro Arikawa"
+      },
+      "avaliation": [
+        {
+          "note": "10",
+          "description": "Gostei bastante do livro, um dos meus livros preferidos.",
+          "id": "ffe10ea0-f05b-4195-8d25-4a072571eefe"
+        },
+        {
+          "description": "É um livro que eu gosto bastante, gosto da história e na minha opinião deveria ser mais bem avaliado pelo os leitores.",
+          "id": "b006c23c-10c5-4d54-bfdf-69dcc5d8bced"
+        }
+      ],
+      "id": 3,
+      "resum": "O gato Nana está viajando pelo Japão. Ele não sabe muito bem para onde está indo ou por que, mas ele está sentado no banco da van prata de Satoru, seu dono. Lado a lado, eles cruzam o país para visitar velhos amigos. O fazendeiro durão que acredita que gatos só servem para caçar ratos, o simpático casal dono de uma pousada que aceita animais, e o marido abandonado pela esposa que ama animais. Mas qual é o motivo dessa viagem? E por que todos estão tão interessados em Nana e Satoru? Ninguém sabe muito bem o que está acontecendo e Satoru não diz nada, mas quando Nana descobrir o motivo da viagem, seu pequeno coração passará por uma das mais difíceis provas de suas sete vidas. Narrado em vozes alternadas, esse romance emocionante e divertido nos mostra um jovem de grande coração e um narrador-gato muito esperto, numa amizade que desafia as fronteiras de um país e da própria vida."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Helena",
+      "image": "https://i.pinimg.com/564x/7a/a4/a9/7aa4a907724c2f4ed20ab5f19d99abb4.jpg",
+      "author": {
+        "id": "2",
+        "name": "Machado de Assis"
+      },
+      "avaliation": [],
+      "id": 4,
+      "resum": "No Rio de Janeiro colonial, um homem importante e rico mantém caso amoroso com uma mulher que havia migrado do Rio Grande do Sul e se separara do marido, devido a dificuldades financeiras. A mulher já possuía uma filha, que, mais tarde, foi perfilhada pelo amante rico. Esta filha é Helena."
+    },
+    {
+      "genre": [
+        {
+          "id": "4",
+          "name": "Ficção Científica"
+        },
+        {
+          "id": "5",
+          "name": "Terror"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Frankenstein",
+      "image": "https://i.pinimg.com/564x/c6/2b/e9/c62be9d2faab9667bb9cfd3b95ca4d05.jpg",
+      "author": {
+        "id": "4",
+        "name": "Mary Shelly"
+      },
+      "avaliation": [
+        {
+          "note": "9",
+          "description": "Gostei bastante da história, é arrepiante, amargurante, triste e emocionante.",
+          "id": "b744e1c4-27fa-4d52-b2fc-91cd8609d824"
+        }
+      ],
+      "id": 5,
+      "resum": "O livro narra a história do ousado doutor Victor Frankenstein, cientista que se lança no experimento de retomar a vida de um ser inanimado. Isso resulta na concepção de uma criatura sobre-humana e monstruosa que passa a lhe perseguir, tornando-se um arquétipo de seu próprio criador."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Orgulho e Preconceito",
+      "image": "https://i.pinimg.com/564x/5b/aa/de/5baaded2e6b06731e16075a0fad9ee3c.jpg",
+      "author": {
+        "id": "5",
+        "name": "Jane Austen"
+      },
+      "avaliation": [
+        {
+          "note": "10",
+          "description": "É um super livro de romance, consegue nós transmitir toda a magia do amor, sem ser clichê. É uma história super emocionante e divertida.",
+          "id": "e9ca8f62-0e40-4270-ba1f-395672e8acf8"
+        }
+      ],
+      "id": 6,
+      "resum": "Orgulho e preconceito é o livro mais famoso de Jane Austen e possui uma série de personagens inesquecíveis e um enredo memorável. Austen nos apresenta Elizabeth Bennet como heroína irresistível e seu pretendente aristocrático, o sr. Darcy. Nesse livro, aspectos diferentes são abordados: orgulho encontra preconceito, ascendência social confronta desprezo social, equívocos e julgamentos antecipados conduzem alguns personagens ao sofrimento e ao escândalo. O livro pode ser considerado a obra-prima da escritora, que equilibra comédia com seriedade, observação meticulosa das atitudes humanas e sua ironia refinada. A nova coleção possui capa dura e estilo inspirado nos bullet journals."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Quincas Borba",
+      "image": "https://i.pinimg.com/564x/10/e5/5a/10e55abdfbcb45c034efdeaa7ce15a83.jpg",
+      "author": {
+        "id": "2",
+        "name": "Machado de Assis"
+      },
+      "avaliation": [],
+      "id": 7,
+      "resum": " Publicado em 1891, o romance conta a vida de Rubião, um pacato professor que se torna rico da noite para o dia ao receber uma herança deixada pelo filósofo Quincas Borba, criador de uma filosofia chamada Humanitismo."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "title": "Razão e Sensibilidade",
+      "image": "https://i.pinimg.com/564x/4f/8c/a2/4f8ca2f8c7eaa8414b5b9fc9388e827b.jpg",
+      "author": {
+        "id": "5",
+        "name": "Jane Austen"
+      },
+      "avaliation": [],
+      "id": 8,
+      "resum": "Este foi o primeiro romance de Jane Austen. Publicado em 1811, logo recebeu reconhecimento do público. Razão e Sensibilidade é um livro em que as irmãs Elinor e Marianne representam uma dualidade, de maneira alternada, ao longo da narrativa. As expectativas vividas pelas duas com a perda, o amor e a esperança, nos aponta para um excelente panorama da vida das mulheres de sua época. As irmãs vivem em uma sociedade rígida, e ambas tentam sobreviver a esse mundo cheio de regras e injustiças. Tanto a sensível e sensata Elinor como a romântica e impetuosa Marianne se veem fadadas a aceitar um destino infeliz por não possuírem fortuna nem influências, obrigadas a viver em um mundo dominado por dinheiro e interesse. As duas personagens passam por um processo intenso de aprendizagem, mesclando a razão com os sentimentos em busca por um final feliz."
+    },
+    {
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        },
+        {
+          "id": "7",
+          "name": "Histórico"
+        }
+      ],
+      "title": "O Guarani",
+      "image": "https://i.pinimg.com/564x/53/b5/a5/53b5a5a6474b4d3470140c16f1c4df54.jpg",
+      "author": {
+        "id": "1",
+        "name": "Jose de Alencar"
+      },
+      "avaliation": [],
+      "id": 9,
+      "resum": "\"O guarani é uma obra do escritor cearense José de Alencar. De forma idealizada, esse romance conta a história de amor entre Ceci (filha de um colonizador) e Peri (indígena brasileiro). Com esse relacionamento inter-racial, o narrador cria a ideia de que o povo brasileiro é fruto do amor e da harmonia entre portugueses e indígenas.\"  Veja mais sobre \"<i>O guarani</i>\" em: https://brasilescola.uol.com.br/literatura/o-guarani.htm"
+    },
+    {
+      "title": "O Alienista",
+      "image": "https://i.pinimg.com/564x/5f/b2/7c/5fb27c41e43099beb60e564367a8bb8a.jpg",
+      "resum": "Seu protagonista é Simão Bacamarte, médico que, após conquistar respeito na Europa, retorna à sua cidade natal, Itaguaí. Lá, ele aprofunda seus estudos de psiquiatria e empreende uma busca sobre os caminhos da mente e as patologias cerebrais.",
+      "author": {
+        "id": "2",
+        "name": "Machado de Assis"
+      },
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "avaliation": [],
+      "id": 10
+    },
+    {
+      "title": "Emma",
+      "image": "https://i.pinimg.com/564x/cd/56/05/cd5605f55865b43d279c9711d221487b.jpg",
+      "resum": "Emma Woodhouse, uma jovem bonita, inteligente e encantadora, está decidida a jamais se casar. Ela já possui toda a fortuna e a independência de que precisa e sente-se perfeitamente satisfeita com sua situação, o que não a impede de se divertir planejando casamentos entre as pessoas que a cercam.",
+      "author": {
+        "id": "5",
+        "name": "Jane Austen"
+      },
+      "genre": [
+        {
+          "id": "2",
+          "name": "Drama"
+        },
+        {
+          "id": "1",
+          "name": "Romance"
+        }
+      ],
+      "avaliation": [],
+      "id": 11
+    },
+    {
+      "title": "Até o verão terminar",
+      "image": "https://i.pinimg.com/564x/50/4a/eb/504aeb0bc84510f22e5b98d386389d2c.jpg",
+      "resum": "Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora.",
+      "author": {
+        "id": "6",
+        "name": "Collen Hoover"
+      },
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        }
+      ],
+      "avaliation": [
+        {
+          "note": "8",
+          "description": "Gostei bastante do livro, porém não é um dos meus livros preferidos.",
+          "id": "6339e585-2eca-474d-84d7-ad4e777665fa"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "title": "O Quinze",
+      "image": "https://i.pinimg.com/564x/65/0f/a3/650fa35ac6d5e79e7b730e49a002ea1a.jpg",
+      "resum": "O quinze (1930) foi o primeiro livro de Rachel de Queiroz e acabou se tornando sua obra mais conhecida pelo público. O romance apresenta a grande seca ocorrida em 1915, vivenciada pela escritora em sua infância.",
+      "author": {
+        "id": "7",
+        "name": "Rachel de Queiroz"
+      },
+      "genre": [
+        {
+          "id": "1",
+          "name": "Romance"
+        },
+        {
+          "id": "2",
+          "name": "Drama"
+        },
+        {
+          "id": "7",
+          "name": "Histórico"
+        }
+      ],
+      "avaliation": [
+        {
+          "note": "9",
+          "description": "É um livro que eu gosto bastante, gosto da história e na minha opinião deveria ser mais bem avaliado pelo os leitores.",
+          "id": "88b99b51-d29f-4eb8-9ff6-63d41b3bc68d"
+        }
+      ],
+      "id": 13
+    }
+  ],
+  "Genres": [
+    {
+      "id": 1,
+      "name": "Romance"
+    },
+    {
+      "id": 2,
+      "name": "Drama"
+    },
+    {
+      "id": 3,
+      "name": "Ficção"
+    },
+    {
+      "id": 4,
+      "name": "Ficção Científica"
+    },
+    {
+      "id": 5,
+      "name": "Terror"
+    },
+    {
+      "id": 6,
+      "name": "Horror"
+    },
+    {
+      "id": 7,
+      "name": "Histórico"
+    }
+  ]
+}

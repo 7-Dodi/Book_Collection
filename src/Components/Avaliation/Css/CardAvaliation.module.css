@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    min-height: 200px;
+    border: 2px solid #222;
+    padding:0 0.6em;
+    margin-right: 2em;
+    text-transform: capitalize;
+}
+
+.card h3{
+    padding: 0.4em;
+    background-color: #222;
+    color: #d11fd1;
+    text-transform: capitalize;
+}
+
+.card button{
+    background-color: #222;
+    color: #fff;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-right: 2em;
+    margin-bottom: 0.4em;
+    cursor: pointer;
+}
+
+.card button:hover{
+    color: #d11fd1;
+}

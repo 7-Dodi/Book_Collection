@@ -1,0 +1,25 @@
+.primary{
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin-right: 2em;
+}
+
+.primary:hover{
+    color: #d11fd1;
+}
+
+.secondary{
+    color: #d11fd1;
+    border: 1px solid #d11fd1;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.secondary:hover{
+    color: #d11fd1;
+    background-color: #222;
+}

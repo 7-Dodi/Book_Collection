@@ -1,0 +1,25 @@
+.company{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+.company h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.company h1 span{
+    color: #d11fd1;
+    background-color: #222;
+    padding: 0 0.2em;
+}
+
+.company p{
+    width: 800px;
+    text-align: justify;
+}
